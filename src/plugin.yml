@@ -1,0 +1,5 @@
+main: jrkkrupicki.drop.DropMain
+name: Drop
+version: 1.0
+api-version: 1.19
+author: Jaroslaw Krupicki
