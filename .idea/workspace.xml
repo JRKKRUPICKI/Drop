@@ -10,11 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fc37777-851a-47fb-b4e5-f4551072357d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/builders/InventoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/listeners/InventoryClickListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jrkkrupicki/drop/commands/DropCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/commands/DropCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jrkkrupicki/drop/listeners/BlockBreakListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/listeners/BlockBreakListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jrkkrupicki/drop/listeners/InventoryClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/listeners/InventoryClickListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

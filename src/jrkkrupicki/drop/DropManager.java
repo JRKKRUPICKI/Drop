@@ -4,11 +4,13 @@ import org.bukkit.Material;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.UUID;
 
 public class DropManager {
 
     private static ArrayList<Drop> drops = new ArrayList<>();
     private static HashSet<Material> blockedOres = new HashSet<>();
+    private static HashSet<UUID> disabledCobblestone = new HashSet<>();
 
     public static void loadDrops(){
         drops.add(new Drop(Material.COAL, 10));
@@ -43,5 +45,20 @@ public class DropManager {
 
     public static HashSet<Material> getBlockedOres(){
         return blockedOres;
+    }
+
+    public static boolean isDisabledCobblestone(UUID uuid){
+        return disabledCobblestone.contains(uuid);
+    }
+
+    public static boolean toggleDisabledCobblestone(UUID uuid){
+        if(disabledCobblestone.contains(uuid)){
+            disabledCobblestone.remove(uuid);
+            return false;
+        }
+        else{
+            disabledCobblestone.add(uuid);
+            return true;
+        }
     }
 }

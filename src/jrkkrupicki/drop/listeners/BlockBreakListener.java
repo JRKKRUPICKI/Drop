@@ -27,5 +27,8 @@ public class BlockBreakListener implements Listener {
             if(!chance) continue;
             block.getWorld().dropItemNaturally(block.getLocation(), new ItemStack(drop.getMaterial()));
         }
+        if(DropManager.isDisabledCobblestone(player.getUniqueId())){
+            event.setDropItems(false);
+        }
     }
 }

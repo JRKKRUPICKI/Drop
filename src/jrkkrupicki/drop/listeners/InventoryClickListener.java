@@ -1,5 +1,8 @@
 package jrkkrupicki.drop.listeners;
 
+import jrkkrupicki.drop.DropManager;
+import jrkkrupicki.drop.commands.DropCommand;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -13,6 +16,12 @@ public class InventoryClickListener implements Listener {
         if(inventory == null) return;
         if(!event.getView().getTitle().equals("Drop")) return;
         event.setCancelled(true);
-        event.getWhoClicked().sendMessage("blocked");
+        int slot = event.getRawSlot();
+        Player player = (Player)event.getWhoClicked();
+        if(slot == 8){
+            boolean result = DropManager.toggleDisabledCobblestone(player.getUniqueId());
+            event.getWhoClicked().sendMessage("disabledCobblestone: " + result);
+            event.setCurrentItem(DropCommand.getDisabledCobblestoneItem(player));
+        }
     }
 }
