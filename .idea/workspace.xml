@@ -10,21 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fc37777-851a-47fb-b4e5-f4551072357d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Drop_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/Drop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/commands/DropCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/listeners/BlockBreakListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/builders/InventoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/listeners/InventoryClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/DropMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jrkkrupicki/drop/commands/DropCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrkkrupicki/drop/commands/DropCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Files/Minecraft/Server/bundler/versions/spigot-1.19.2-R0.1-SNAPSHOT.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Files/Minecraft/Server/bundler/versions/spigot-1.19.2-R0.1-SNAPSHOT.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

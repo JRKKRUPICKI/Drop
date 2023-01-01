@@ -1,4 +1,4 @@
-main: jrkkrupicki.drop.DropMain
+main: jrkkrupicki.drop.Main
 name: Drop
 version: 1.0
 api-version: 1.19
